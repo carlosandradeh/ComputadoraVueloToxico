@@ -167,7 +167,7 @@ void loop() {
   
   // Sistema de recuperacion 
   //if (altitud > altitudBase + 25 && altitud < altitudMaxima - 25) {  // Rango entre 25 metros
-  if (numdespliegue == 0 && altitud > altitudBase + 1 && altitud < altitudMaxima - 5) {  
+  if (numdespliegue == 0 && altitud > altitudBase + 25 && altitud < altitudMaxima - 25) {  
     despliegue = altitud;
     tDespliegue = millis();
     numdespliegue = 1;
