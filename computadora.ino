@@ -172,7 +172,7 @@ void loop() {
     tDespliegue = millis();
     numdespliegue = 1;
     digitalWrite(6, HIGH);
-    delay(1000);
+    delay(1000); //delay(500) Lo que se considere para prender la carga pirotecnica
     digitalWrite(6, LOW);
     buzzerf(8);
   } else if (altitud > altitudMaxima) {
